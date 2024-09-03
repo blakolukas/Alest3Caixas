@@ -18,6 +18,7 @@ public class Item{
         return this.peso;
     }
 
+    @Override
     public String toString(){
         return "Peso: "+ peso + " Valor: "+ valor;
     }
